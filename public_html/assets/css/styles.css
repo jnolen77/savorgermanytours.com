@@ -943,3 +943,29 @@ input, textarea {
     
 }
 
+/* Scroll effects */
+.animateIn,
+.animateOut,
+.animateOutUp {
+    transition: transform .8s ease-in-out, opacity .8s ease-in-out;
+}
+
+.animateOut {
+    opacity: 0;
+    transform: translate(0, 50px);
+
+    @media print {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+.animateOutUp {
+    opacity: 0;
+    transform: translate(0, -50px);
+
+    @media print {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}

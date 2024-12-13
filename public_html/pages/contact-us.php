@@ -25,7 +25,7 @@ include __DIR__ . '/../includes/header.php';
 
     <section class="page">
     
-    <div class="page-content">
+    <div class="page-content animateIn">
         <div class="col-12 col-md-12 text-content">
         <div class="sepmd"></div>
             <h2>Feel free to contact Us for more information! We'd love to hear from you!</h2>
