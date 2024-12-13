@@ -2,7 +2,7 @@
 include __DIR__ . '/../config/config.php'; // Relative path to config.php
 
 // Set page-specific metadata
-$title = "$website" . " - Gallery";
+$title = "$website" . " - Photo Gallery";
 $description = "Photos of tours of Germany.";
 $keywords = "page1, example, template";
 ?>
