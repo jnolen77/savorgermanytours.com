@@ -506,7 +506,7 @@ h2 {
 
 .text-content,
 .image-content {
-    flex: 1 1 100%; /
+    flex: 1 1 100%; 
     text-align: center;
 }
 
