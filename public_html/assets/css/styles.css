@@ -529,6 +529,12 @@ h2 {
     width: 75%;
 }
 
+.tour-box {
+    box-shadow: 0px 0px 10px -4px rgba(7.623437499999987, 7.540574048913031, 7.540574048913031, 0.5); 
+    padding: 25px 40px; 
+    border-radius: 30px; 
+}
+
 .responsive-img {
     max-width: 100%;
     height: auto;
@@ -845,17 +851,17 @@ h2 {
         margin-top: 40px;
     }
 }
-
-.seplg {
-    height: 75px;
+.sepxs {
+    height:15px;
 }
-
+.sepsm {
+    height: 25px;
+}
 .sepmd {
     height: 50px;
 }
-
-.sepsm {
-    height: 25px;
+.seplg {
+    height: 75px;
 }
 .sepxl {
     height: 100px;
@@ -970,4 +976,14 @@ input, textarea {
         opacity: 1;
         transform: translate(0, 0);
     }
+}
+
+.fa-orange {
+    color: #dd9933;
+}
+
+.sticky-element {
+    position: sticky;
+    top: 80px;  
+    z-index: 1000;  
 }

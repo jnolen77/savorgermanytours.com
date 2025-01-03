@@ -38,14 +38,28 @@ $keywords = "page1, example, template";
             <div class="sepmd"></div>
             <h3>April 26th - May 5th 2025</h3>
             <div class="sepsm"></div>
-                <p>This tour of Bavaria and Franconia offers an unforgettable culinary and cultural adventure, blending iconic traditions with immersive experiences. Highlights include exclusive brewery tours showcasing the craftsmanship behind Germany’s world-famous beers, a hands-on pretzel and Weisswurst-making class, and a delightful Lebkuchen baking class to savor the region’s sweet heritage. Guests will revel in the lively atmosphere of Springfest in Munich, a festive celebration of Bavarian culture, and enjoy an extraordinary chef’s dinner at the historic Schlenkerla Brewery in Bamberg. This dinner, curated by renowned Chef Wolfgang, combines innovative culinary artistry with the timeless flavors of Franconian smoked beer, creating a truly unique dining experience.</p>
-            
+                <p>This tour of Bavaria and Franconia offers an unforgettable culinary and cultural adventure, blending iconic traditions with immersive experiences. Highlights include exclusive brewery tours showcasing the craftsmanship behind Germany's world-famous beers, a hands-on pretzel and Weisswurst-making class, and a delightful Lebkuchen baking class to savor the region’s sweet heritage. Guests will revel in the lively atmosphere of Springfest in Munich, a festive celebration of Bavarian culture, and enjoy an extraordinary chef’s dinner at the historic Schlenkerla Brewery in Bamberg. This dinner, curated by renowned Chef Wolfgang, combines innovative culinary artistry with the timeless flavors of Franconian smoked beer, creating a truly unique dining experience.</p>
+            <div class="seplg"></div>
+                <h2>Tour Details</h2>
+                <div class="sepmd"></div>
+                <div class="tour-box row tac">
+                    <div class="row tac mb-4">
+                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
+                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
+                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
+                    </div>
+                    <div class="row tac">
+                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
+                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
+                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
+                    </div>
+                </div>            
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-5">
                 <div class="sepxl"></div>
                 <div class="sepxl"></div>
-                <div class="shadow-box">
+                <div class="shadow-box sticky-element">
                     <h4>Space is Limited!</h4>
                     <div class="sepsm"></div>
                     <p>This exclusive tour offers a perfect blend of regional flavors and cultural experiences, featuring immersive cooking classes, brewery tours, a tent reservation at Munich's Spring Fest - the little sibling to the famous Oktoberfest. Space is limited so don't hesitate to book today!</p>
