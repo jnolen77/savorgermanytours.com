@@ -526,7 +526,6 @@ h2 {
     padding: 25px 40px; 
     border-radius: 30px; 
     background-color: #fff;
-    width: 75%;
 }
 
 .tour-box {
@@ -987,3 +986,4 @@ input, textarea {
     top: 80px;  
     z-index: 1000;  
 }
+

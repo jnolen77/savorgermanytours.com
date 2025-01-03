@@ -55,8 +55,8 @@ $keywords = "page1, example, template";
                     </div>
                 </div>            
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
                 <div class="sepxl"></div>
                 <div class="sepxl"></div>
                 <div class="shadow-box sticky-element">
