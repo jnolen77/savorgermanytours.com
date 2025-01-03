@@ -22,8 +22,11 @@ $keywords = "page1, example, template";
             Your browser does not support the video tag.
             </video>
         <div class="overlay-text">
+            <div class="seplg"></div>
             <h1>Beer & Food Lover's Tour of Bavaria & Franconia</h1>
-                
+            <div class="sepsm"></div>
+                <p style="color:#000;">Eat and Drink your way through the restaurants, breweries, and markets of southern Germany</p>
+                <p style="color:#000;">April 26th - May 5th 2025</p>
         </div>
     </div>
 
@@ -35,55 +38,34 @@ $keywords = "page1, example, template";
             <div class="sepmd"></div>
             <h3>April 26th - May 5th 2025</h3>
             <div class="sepsm"></div>
-                <p>Join chefs Jeremy and Jessica Nolen on an unforgettable culinary adventure through 
-                        the heart of Bavaria and Franconia with Savor Germany's exclusive food and beer tour. 
-                        Explore the rich traditions of Munich, Nuremberg, and Bamberg as you indulge in regional 
-                        specialties and sip world-renowned beers in the cities that perfected them. From the vibrant 
-                        beer halls of Munich to the historic breweries of Bamberg, this tour offers a delicious journey 
-                        through Germany's most iconic culinary landscapes, all while learning insider tips from two expert 
-                        chefs with deep ties to the region.</p>
-                        <p>
-                        Springfest in Munich, or Frühlingsfest, is a lively annual festival held in Munich during late April 
-                        and early May. Often referred to as the “little sister” of Oktoberfest, it offers a similar atmosphere 
-                        with a more relaxed and local vibe. Hosted at the Theresienwiese, the same grounds as Oktoberfest, Springfest 
-                        features traditional Bavarian beer tents, carnival rides, games, and delicious regional food like pretzels, 
-                        sausages, and roast chicken. Visitors enjoy the festive spirit with live music, cultural events, and fireworks 
-                        displays, making it a fantastic way to experience Bavarian traditions without the Oktoberfest crowds.
-                        </p>
-                        <p><strong>$2,922*</strong> - per person LAND only (based on double occupancy)</p>
-                        <p><strong>$3,425*</strong> - for solo travel</p>
-                        <p>* Price subject to change based on total number of guests.</p>
+                <p>This tour of Bavaria and Franconia offers an unforgettable culinary and cultural adventure, blending iconic traditions with immersive experiences. Highlights include exclusive brewery tours showcasing the craftsmanship behind Germany’s world-famous beers, a hands-on pretzel and Weisswurst-making class, and a delightful Lebkuchen baking class to savor the region’s sweet heritage. Guests will revel in the lively atmosphere of Springfest in Munich, a festive celebration of Bavarian culture, and enjoy an extraordinary chef’s dinner at the historic Schlenkerla Brewery in Bamberg. This dinner, curated by renowned Chef Wolfgang, combines innovative culinary artistry with the timeless flavors of Franconian smoked beer, creating a truly unique dining experience.</p>
+            
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-5">
                 <div class="sepxl"></div>
-                <div class="seplg"></div>
-                <div class="shadow-box">
-                    <h4>Your Tour at a Glance</h4>
-                    <div class="sepsm"></div>
-                    <i class="fa-solid fa-bed" style="margin-right: 10px;"></i>  <strong>Stay</strong> 9 Days 8 Nights <br />
-                    <i class="fa-solid fa-utensils" style="margin-right: 10px;"></i> <strong>Meals</strong> 13 Meals 7 Breakfasts | 5 Lunches | 5 Dinners <br />
-                    <i class="fa-solid fa-person-walking-luggage" style="margin-right: 10px;"></i> <strong>Activity Level</strong> 3 - Moderate walking involved. <br />
-                    <i class="fa-solid fa-train" style="margin-right: 10px;"></i> <strong>Travel Style</strong> Combination of trains and walking. <br />
-                </div>
                 <div class="sepxl"></div>
                 <div class="shadow-box">
-                    
-                    <h4>Your Tour Includes</h4>
+                    <h4>Space is Limited!</h4>
                     <div class="sepsm"></div>
-                    <ul class="tal">
-                        <li>8 nights of 3-star and above hotels</li>
-                        <li>Breakfast daily except day of arrival</li>
-                        <li>Five (5) dinners & Five (5) Lunches</li>
-                        <li>Three (3) Brewery tours</li>
-                        <li>Pretzel & Sausage making class in Munich</li>
-                        <li>Tent Reservation at Springfest, 1 meal and 1 liter of beer</li>
-                    </ul>
+                    <p>This exclusive tour offers a perfect blend of regional flavors and cultural experiences, featuring immersive cooking classes, brewery tours, a tent reservation at Munich's Spring Fest - the little sibling to the famous Oktoberfest. Space is limited so don't hesitate to book today!</p>
+                    <div class="sepsm"></div>
+                    <div class="tac"><a href="" class="button">Request More Information</a></div><br />
+                    <i class="fa-solid fa-bed" style="margin-right: 10px;"></i>  <strong>Chef Curated Experiences</strong><br />
+                    <i class="fa-solid fa-utensils" style="margin-right: 10px;"></i> <strong>Private Brewery Tours</strong><br />
+                    <i class="fa-solid fa-person-walking-luggage" style="margin-right: 10px;"></i> <strong>Exclusive Chef Dinner</strong><br />
+                    <div class="sepsm"></div>
+                    <p>Have any questions?</p>
+                    <div class="sepsm"></div>
+                    <a href="mailto:info@savorgermany.com">Email us</a> or Call: <a href="tel:2672165877">(267) 216-5877</a>
+                    <div class="sepsm"></div>
                 </div>
+                <div class="seplg"></div>
             </div>
         </div>
     </div>
 </section>
+
 
 <section class="page">
     <div class="page-content">
