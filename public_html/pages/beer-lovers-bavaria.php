@@ -157,15 +157,18 @@ $keywords = "page1, example, template";
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                             <div class="modal-header tac">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up For Our Newsletter</h1>
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Have any Questions?</h1><br>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
+                            <div class="modal-header tac">
+                            <h5 class="tac">Send Us a Message And We'll Get Back To You Shortly</h5>
+                            </div>
                             <div class="modal-body">
-                                ...
+                            <script src="https://www.cognitoforms.com/f/seamless.js" data-key="OI_LzSWKxkCZJEPTm45_yQ" data-form="1"></script>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                
                             </div>
                             </div>
                         </div>
