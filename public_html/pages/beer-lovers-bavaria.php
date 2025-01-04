@@ -25,40 +25,65 @@ $keywords = "page1, example, template";
             <div class="seplg"></div>
             <h1>Beer & Food Lover's Tour of Bavaria & Franconia</h1>
             <div class="sepsm"></div>
-                <p style="color:#000;">Eat and Drink your way through the restaurants, breweries, and markets of southern Germany</p>
-                <p style="color:#000;">April 26th - May 5th 2025</p>
         </div>
     </div>
-
+<div class="sepmd"></div>
 <section class="page">
     <div class="page-content">
         <div class="row">
-            <div class="col-md-6">
-            <h2>Beer & Food Lover's Tour Bavaria & Franconia</h2>
-            <div class="sepmd"></div>
-            <h3>April 26th - May 5th 2025</h3>
-            <div class="sepsm"></div>
-                <p>This tour of Bavaria and Franconia offers an unforgettable culinary and cultural adventure, blending iconic traditions with immersive experiences. Highlights include exclusive brewery tours showcasing the craftsmanship behind Germany's world-famous beers, a hands-on pretzel and Weisswurst-making class, and a delightful Lebkuchen baking class to savor the region’s sweet heritage. Guests will revel in the lively atmosphere of Springfest in Munich, a festive celebration of Bavarian culture, and enjoy an extraordinary chef’s dinner at the historic Schlenkerla Brewery in Bamberg. This dinner, curated by renowned Chef Wolfgang, combines innovative culinary artistry with the timeless flavors of Franconian smoked beer, creating a truly unique dining experience.</p>
-            <div class="seplg"></div>
-                <h2>Tour Details</h2>
+            <div class="col-12"><h2>Beer & Food Lover's Tour Bavaria & Franconia</h2>
+            <div class="sepxs"></div>
+            <h4>Eat and Drink your way through the restaurants, breweries, and markets of southern Germany</h4>
+            <h5>April 26th - May 5th 2025</h5>
                 <div class="sepmd"></div>
-                <div class="tour-box row tac">
-                    <div class="row tac mb-4">
-                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
-                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
-                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
-                    </div>
-                    <div class="row tac">
-                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
-                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
-                    <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepxs"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
-                    </div>
-                </div>            
+                </div>
+            <div class="col-md-7">
+            <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/images/roast-pork.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/images/bamberg-rathaus.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/images/bergkaese.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="seplg"></div>
+            <p>This tour of Bavaria and Franconia offers an unforgettable culinary and cultural adventure, blending iconic traditions with immersive experiences. Highlights include exclusive brewery tours showcasing the craftsmanship behind Germany's world-famous beers, a hands-on pretzel and Weisswurst-making class, and a delightful Lebkuchen baking class to savor the region’s sweet heritage. Guests will revel in the lively atmosphere of Springfest in Munich, a festive celebration of Bavarian culture, and enjoy an extraordinary chef’s dinner at the historic Schlenkerla Brewery in Bamberg. This dinner, curated by renowned Chef Wolfgang, combines innovative culinary artistry with the timeless flavors of Franconian smoked beer, creating a truly unique dining experience.</p>
+               <div class="seplg"></div>
+                    <h2>Tour Details</h2>
+                    <div class="sepmd"></div>
+                    <div class="tour-box row tac">
+                        <div class="row tac mb-4" style="align-items:flex-start !important;">
+                        <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepsm"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
+                        <div class="col-4"><i class="fa-solid fa-calendar-days fa-3x fa-orange"></i><div class="sepsm"></div><h4>Dates</h4><div class="sepxs"></div><p>April 26th - May 5th 2025</p></div>
+                        <div class="col-4"><i class="fa-solid fa-globe fa-3x fa-orange"></i><div class="sepsm"></div><h4>Location</h4><div class="sepxs"></div><p>Germany<br />Munich, Nuremberg, Bamberg</p></div>
+                        </div>
+                        <div class="row tac" style="align-items:flex-start !important;">
+                        <div class="col-4"><i class="fa-solid fa-person-walking-luggage fa-3x fa-orange"></i><div class="sepsm"></div><h4>Activity Level</h4><div class="sepxs"></div><p>Walking, Train Commuting, Hiking (Optional)</p></div>
+                        <div class="col-4"><i class="fa-solid fa-people-group fa-3x fa-orange"></i><div class="sepsm"></div><h4>Group Size</h4><div class="sepxs"></div><p>6 - 12 People</p></div>
+                        <div class="col-4"><i class="fa-solid fa-location-dot fa-3x fa-orange"></i><div class="sepsm"></div><h4>Location</h4><div class="sepxs"></div><p>Germany</p></div>
+                        </div>
+                    </div>            
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
             <div class="col-md-4">
-                <div class="sepxl"></div>
-                <div class="sepxl"></div>
                 <div class="shadow-box sticky-element">
                     <h4>Space is Limited!</h4>
                     <div class="sepsm"></div>
