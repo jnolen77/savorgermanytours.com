@@ -66,7 +66,27 @@ $keywords = "page1, example, template";
 </div>
 <div class="seplg"></div>
             <p>This tour of Bavaria and Franconia offers an unforgettable culinary and cultural adventure, blending iconic traditions with immersive experiences. Highlights include exclusive brewery tours showcasing the craftsmanship behind Germany's world-famous beers, a hands-on pretzel and Weisswurst-making class, and a delightful Lebkuchen baking class to savor the region’s sweet heritage. Guests will revel in the lively atmosphere of Springfest in Munich, a festive celebration of Bavarian culture, and enjoy an extraordinary chef’s dinner at the historic Schlenkerla Brewery in Bamberg. This dinner, curated by renowned Chef Wolfgang, combines innovative culinary artistry with the timeless flavors of Franconian smoked beer, creating a truly unique dining experience.</p>
-               <div class="seplg"></div>
+            <!-- Modal button --> 
+                     <div class="tac"><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button></div><br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                            <div class="modal-header tac">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up For Our Newsletter</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>    
+            <div class="seplg"></div>
                     <h2>Tour Details</h2>
                     <div class="sepmd"></div>
                     <div class="tour-box row tac">
@@ -90,26 +110,7 @@ $keywords = "page1, example, template";
                     <div class="sepsm"></div>
                     <p>This exclusive tour offers a perfect blend of regional flavors and cultural experiences, featuring immersive cooking classes, brewery tours, a tent reservation at Munich's Spring Fest - the little sibling to the famous Oktoberfest. Space is limited so don't hesitate to book today!</p>
                     <div class="sepsm"></div>
-                    <!-- Modal button --> 
-                     <div class="tac"><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button></div><br />
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                            <div class="modal-header tac">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up For Our Newsletter</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                            </div>
-                        </div>
-                    </div> 
+                    
                     <div class="tac"><a href="" class="button">Request More Information</a></div><br />
                     <i class="fa-solid fa-bed" style="margin-right: 10px;"></i>  <strong>Chef Curated Experiences</strong><br />
                     <i class="fa-solid fa-utensils" style="margin-right: 10px;"></i> <strong>Private Brewery Tours</strong><br />
