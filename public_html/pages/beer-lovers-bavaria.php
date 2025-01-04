@@ -66,27 +66,7 @@ $keywords = "page1, example, template";
   </button>
 </div>
 <div class="seplg"></div>
-            <p>This tour of Bavaria and Franconia offers an unforgettable culinary and cultural adventure, blending iconic traditions with immersive experiences. Highlights include exclusive brewery tours showcasing the craftsmanship behind Germany's world-famous beers, a hands-on pretzel and Weisswurst-making class, and a delightful Lebkuchen baking class to savor the region’s sweet heritage. Guests will revel in the lively atmosphere of Springfest in Munich, a festive celebration of Bavarian culture, and enjoy an extraordinary chef’s dinner at the historic Schlenkerla Brewery in Bamberg. This dinner, curated by renowned Chef Wolfgang, combines innovative culinary artistry with the timeless flavors of Franconian smoked beer, creating a truly unique dining experience.</p>
-            <!-- Modal button --> 
-                     <div class="tac"><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button></div><br />
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                            <div class="modal-header tac">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up For Our Newsletter</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                            </div>
-                        </div>
-                    </div>    
+            <p>This tour of Bavaria and Franconia offers an unforgettable culinary and cultural adventure, blending iconic traditions with immersive experiences. Highlights include exclusive brewery tours showcasing the craftsmanship behind Germany's world-famous beers, a hands-on pretzel and Weisswurst-making class, and a delightful Lebkuchen baking class to savor the region’s sweet heritage. Guests will revel in the lively atmosphere of Springfest in Munich, a festive celebration of Bavarian culture, and enjoy an extraordinary chef’s dinner at the historic Schlenkerla Brewery in Bamberg. This dinner, curated by renowned Chef Wolfgang, combines innovative culinary artistry with the timeless flavors of Franconian smoked beer, creating a truly unique dining experience.</p>   
             <div class="seplg"></div>
                     <h2>Tour Details</h2>
                     <div class="sepmd"></div>
@@ -139,7 +119,58 @@ $keywords = "page1, example, template";
             <div class="sepmd"></div>
             
                 <img src="/assets/images/augustiner-beergarden.jpg" alt="Augustiner Beer Garden" class="w100">
-            
+                <div class="sepxl"></div>
+            <div class="col-md-12">
+                <h4 style="font-style:italic;">What's Included</h4>
+                <ul>
+                    <li>8 nights in 3-star and above hotels</li>
+                    <li>Airport transfer from Munich Airport to Munich Hotel</li>
+                    <li>Breakfast daily except day of arrival</li>
+                    <li>Five (5) dinners including a special collaboration at Schlenkerla Brewery in Bamberg</li>
+                    <li>Five (5) Lunches including at a brewery tour</li>
+                    <li>Three (3) Brewery tours including the famous pilgrammage of Andechs Monastery</li>
+                    <li>Pretzel & Sausage Making Class in Munich</li>
+                    <li>Lebkuchen Baking Class in Nuremberg's famous Wicklein Bakery</li>
+                    <li>Tent Reservation at Munich's Spring Fest (first liter of beer and a meal included)</li>
+                    <li>All Taxes and Fees</li>
+                    <li>All Transportation throughout the duration of the trip</li>
+                </ul>
+            </div>
+            <div class="sepmd"></div>
+            <div class="col-md-12">
+                <h4 style="font-style:italic;">Not Included</h4>
+                <ul>
+                    <li>Flights to and from Munich (we are a fully licensed travel agency, flights can be added)</li>
+                    <li>Travel Insurance (highly recommended)</li>
+                    <li>Meals & Drinks during 'on-your-own' times.</li>
+                    <li>Gratuities for local tour guides and instructors</li>
+                </ul>
+            </div>
+            <div class="sepmd"></div>
+            <div class="col-md-6 shadow-box tac">
+                <h4>What Are You Waiting For?</h4>
+                <p>Join our exclusive Bavaria culinary tour and secure your spot today—spaces are filling fast!</p><br />
+                <!-- Modal button --> 
+                <div class="tac"><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Request More Information</button></div><br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                            <div class="modal-header tac">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up For Our Newsletter</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>  
+            </div>
         </div>
     </div>
 </section>
