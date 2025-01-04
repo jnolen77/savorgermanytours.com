@@ -12,11 +12,10 @@ include __DIR__ . '/../config/classes.php';
         <meta name="description" content="<?php echo $description ?? $defaultDescription; ?>">
         <meta name="keywords" content="<?php echo $keywords ?? $defaultKeywords; ?>">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+      
         <link rel="stylesheet" href="<?php echo $stylesheet; ?>">
         <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
         <link rel="icon" type="image/png" href="/assets/images/favicon.png">
-        <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

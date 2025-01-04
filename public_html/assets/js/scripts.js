@@ -99,12 +99,4 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Close popup event
-    closeButton.addEventListener('click', function () {
-        popup.classList.remove('visible');
-    });
-
-    // Show popup on scroll
-    window.addEventListener('scroll', handleScroll);
-});
-
+ 
