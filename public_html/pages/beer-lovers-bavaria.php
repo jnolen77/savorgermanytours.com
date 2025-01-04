@@ -71,15 +71,16 @@ $keywords = "page1, example, template";
                     <div class="sepmd"></div>
                     <div class="tour-box row tac">
                         <div class="row tac mb-4" style="align-items:flex-start !important;">
-                        <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepsm"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
-                        <div class="col-4"><i class="fa-solid fa-calendar-days fa-3x fa-orange"></i><div class="sepsm"></div><h4>Dates</h4><div class="sepxs"></div><p>April 26th - May 5th 2025</p></div>
-                        <div class="col-4"><i class="fa-solid fa-globe fa-3x fa-orange"></i><div class="sepsm"></div><h4>Location</h4><div class="sepxs"></div><p>Germany<br />Munich, Nuremberg, Bamberg</p></div>
+                            <div class="col-4"><i class="fa-solid fa-dollar-sign fa-3x fa-orange"></i><div class="sepsm"></div><h4>Price</h4><div class="sepxs"></div><p>$2,922 per person (based on double occupancy) $3,425 - for solo traveler</p></div>
+                            <div class="col-4"><i class="fa-solid fa-calendar-days fa-3x fa-orange"></i><div class="sepsm"></div><h4>Dates</h4><div class="sepxs"></div><p>April 26th - May 5th 2025</p></div>
+                            <div class="col-4"><i class="fa-solid fa-globe fa-3x fa-orange"></i><div class="sepsm"></div><h4>Location</h4><div class="sepxs"></div><p>Germany<br />Munich, Nuremberg, Bamberg</p></div>
                         </div>
                         <div class="row tac" style="align-items:flex-start !important;">
-                        <div class="col-4"><i class="fa-solid fa-person-walking-luggage fa-3x fa-orange"></i><div class="sepsm"></div><h4>Activity Level</h4><div class="sepxs"></div><p>Walking, Train Commuting, Hiking (Optional)</p></div>
-                        <div class="col-4"><i class="fa-solid fa-people-group fa-3x fa-orange"></i><div class="sepsm"></div><h4>Group Size</h4><div class="sepxs"></div><p>6 - 12 People</p></div>
-                        <div class="col-4"><i class="fa-solid fa-location-dot fa-3x fa-orange"></i><div class="sepsm"></div><h4>Location</h4><div class="sepxs"></div><p>Germany</p></div>
+                            <div class="col-4"><i class="fa-solid fa-person-walking-luggage fa-3x fa-orange"></i><div class="sepsm"></div><h4>Activity Level</h4><div class="sepxs"></div><p>Walking, Train Commuting, Hiking (Optional)</p></div>
+                            <div class="col-4"><i class="fa-solid fa-people-group fa-3x fa-orange"></i><div class="sepsm"></div><h4>Group Size</h4><div class="sepxs"></div><p>6 - 12 People</p></div>
+                            <div class="col-4"><i class="fa-solid fa-location-dot fa-3x fa-orange"></i><div class="sepsm"></div><h4>Location</h4><div class="sepxs"></div><p>Germany</p></div>
                         </div>
+                        
                     </div>            
             </div>
             <div class="col-md-1"></div>
@@ -89,6 +90,26 @@ $keywords = "page1, example, template";
                     <div class="sepsm"></div>
                     <p>This exclusive tour offers a perfect blend of regional flavors and cultural experiences, featuring immersive cooking classes, brewery tours, a tent reservation at Munich's Spring Fest - the little sibling to the famous Oktoberfest. Space is limited so don't hesitate to book today!</p>
                     <div class="sepsm"></div>
+                    <!-- Modal button --> 
+                     <div class="tac"><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button></div><br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                            <div class="modal-header tac">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up For Our Newsletter</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div> 
                     <div class="tac"><a href="" class="button">Request More Information</a></div><br />
                     <i class="fa-solid fa-bed" style="margin-right: 10px;"></i>  <strong>Chef Curated Experiences</strong><br />
                     <i class="fa-solid fa-utensils" style="margin-right: 10px;"></i> <strong>Private Brewery Tours</strong><br />
@@ -105,7 +126,8 @@ $keywords = "page1, example, template";
     </div>
 </section>
 
-
+                    
+                    
 <section class="page">
     <div class="page-content">
         <div class="row">
