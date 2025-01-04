@@ -22,8 +22,8 @@ $keywords = "Germany travel, German food tours, Brewery tours in Germany, German
             Your browser does not support the video tag.
             </video>
         <div class="overlay-text">
-            <h1 style="font-size: 60px; font-weight:800;">Savor Germany</h1>
-                <h2>Experience the food, beer, & wine of Germany with two acclaimed chefs</h2>
+            <h1>Savor Germany</h1>
+                <h2 class="hidden-mobile">Experience the food, beer, & wine of Germany with two acclaimed chefs</h2>
                 <div class="seplg hidden-mobile"></div>
                 <a href="/bavaria-franconia-2025" class="button hidden-mobile">Discover Your Next Adventure</a>
         </div>

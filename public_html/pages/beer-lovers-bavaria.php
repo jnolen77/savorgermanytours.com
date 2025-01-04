@@ -16,7 +16,7 @@ $keywords = "page1, example, template";
     });
 </script>
 
-<div class="video-container" style="height:550px !important;">
+<div class="video-container">
         <video autoplay muted loop playsinline>
             <source src="/assets/images/bavarian-mountains.mp4" type="video/mp4">       
             Your browser does not support the video tag.
@@ -25,13 +25,14 @@ $keywords = "page1, example, template";
             <div class="seplg"></div>
             <h1>Beer & Food Lover's Tour of Bavaria & Franconia</h1>
             <div class="sepsm"></div>
+            <div class="tac"><a href="#itinerary" class="button hidden-mobile">See the Itinerary</a></div>
         </div>
     </div>
-<div class="sepmd"></div>
-<section class="page">
+<div class="sepmd hidden-mobile"></div>
+<section class="page tal">
     <div class="page-content">
         <div class="row">
-            <div class="col-12"><h2>Beer & Food Lover's Tour Bavaria & Franconia</h2>
+            <div class="col-12"><h2 id="itinerary">Beer & Food Lover's Tour Bavaria & Franconia</h2>
             <div class="sepxs"></div>
             <h4>Eat and Drink your way through the restaurants, breweries, and markets of southern Germany</h4>
             <h5>April 26th - May 5th 2025</h5>
