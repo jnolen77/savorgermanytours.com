@@ -99,4 +99,23 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
- 
+    // Close popup event
+    closeButton.addEventListener('click', function () {
+        popup.classList.remove('visible');
+    });
+
+    // Show popup on scroll
+    window.addEventListener('scroll', handleScroll);
+});
+
+function toggleReadMore(button) {
+    const container = button.parentElement;
+    container.classList.toggle('open');
+
+    // Change button text based on state
+    if (container.classList.contains('open')) {
+        button.textContent = 'Read less';
+    } else {
+        button.textContent = 'Read more...';
+    }
+}

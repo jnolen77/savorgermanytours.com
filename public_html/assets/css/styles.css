@@ -571,6 +571,16 @@ h2 {
     height: auto; 
     display: block; 
 }
+.w75 {
+    max-width: 75;
+    height: auto;
+    display: block;
+}
+.w50 {
+    max-width: 50%;
+    height: auto;
+    display: block;
+}
 
 .mobile-menu {
     padding: 0px !important;
@@ -1011,4 +1021,26 @@ input, textarea {
     position: sticky;
     top: 80px;  
     z-index: 1000;  
+}
+
+
+.hidden-text {
+    display: none;
+}
+
+.read-more-container.open .hidden-text {
+    display: inline;
+}
+
+.read-more-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.read-more-btn:hover {
+    text-decoration: underline;
 }

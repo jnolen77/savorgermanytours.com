@@ -66,7 +66,7 @@ $keywords = "page1, example, template";
   </button>
 </div>
 <div class="seplg"></div>
-            <p>This tour of Bavaria and Franconia offers an unforgettable culinary and cultural adventure, blending iconic traditions with immersive experiences. Highlights include exclusive brewery tours showcasing the craftsmanship behind Germany's world-famous beers, a hands-on pretzel and Weisswurst-making class, and a delightful Lebkuchen baking class to savor the region’s sweet heritage. Guests will revel in the lively atmosphere of Springfest in Munich, a festive celebration of Bavarian culture, and enjoy an extraordinary chef’s dinner at the historic Schlenkerla Brewery in Bamberg. This dinner, curated by renowned Chef Wolfgang, combines innovative culinary artistry with the timeless flavors of Franconian smoked beer, creating a truly unique dining experience.</p>   
+            <p>This tour of Bavaria and Franconia offers an unforgettable culinary and cultural adventure, blending iconic traditions with immersive experiences. Highlights include exclusive brewery tours showcasing the craftsmanship behind Germany's world-famous beers, a hands-on pretzel and Weisswurst-making class, and a delightful Lebkuchen baking class to savor the region's sweet heritage. Guests will revel in the lively atmosphere of Springfest in Munich, a festive celebration of Bavarian culture, and enjoy an extraordinary chef's dinner at the historic Schlenkerla Brewery in Bamberg. This dinner, curated by renowned Chef Wolfgang, combines innovative culinary artistry with the timeless flavors of Franconian smoked beer, creating a truly unique dining experience.</p>   
             <div class="seplg"></div>
                     <h2>Tour Details</h2>
                     <div class="sepmd"></div>
@@ -174,35 +174,84 @@ $keywords = "page1, example, template";
         </div>
     </div>
 </section>
-
 <section class="page">
     <div class="page-content">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
+                <h3>Highlights</h3>
+                <h5>Food & Beer of Bavaria and Franconia</h5>
+                <ul>
+                    <li>8 days visiting restaurants, breweries, farmer's markets, and more with two award winning chefs</li>
+                    <li>Enjoy the ambience and atmosphere of Munich's Spring Fest - the smaller sibling to Oktoberfest</li>
+                    <li>Enjoy an exclusive dinner at a 600 year old Brauhaus, curated by chef Jeremy Nolen and Wolfgang Thiel of Schlenkerla</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="/assets/images/munich-map-sm.webp" alt="Munich Map" class="w100">
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="constrain">
+<section class="page shadow-box">
+    <div class="page-content">
+        <div class="row">
+            <div class="col-md-7 read-more-container">
                 <h3 class="tal">Day 1: Saturday April 26th, 2025 | First Day In Munich</h3>
                 <div class="sepsm"></div>
-                <p class="tal">Welcome to Munich! As soon as everyone arrives, we'll gather at Airbräu, the unique brewery right inside the Munich Airport. It's the perfect spot to kick off our trip with a quick welcome before we take the train into the city. After a short ride, we'll head to our hotel, Holiday Inn Munich City East, where you can drop off your luggage and get settled in.</p>
-                <p class="tal">The first day we'll take it easy during the day. Once our luggage is dropped off, you can relax at the hotel while the friendly staff readies your room or you can join us at the Viktualiemarkt, Munich's main farmer's market for some lunch and a leisurely stroll through the market stalls. The Viktualienmarkt, Munich's famous open-air market, is bustling with local vendors offering fresh produce, cheeses, meats, and Bavarian treats. This is a great opportunity to sample some authentic local flavors and get a taste of the city's vibrant food culture. After we've explored the amazing food and artisan vendors, we'll return to the hotel for check-in, and you'll have the rest of the afternoon free to explore Munich on your own. Whether it's a stroll through the old town, a visit to a museum, or simply relaxing at a café, the choice is yours.</p>
-                <p class="tal">In the evening, we'll come together for dinner at Augustiner Bräustuben, one of Munich's oldest and most beloved beer halls. You'll enjoy a traditional Bavarian meal paired with some of the finest beers brewed right on-site. It's the perfect way to end our first day in Germany!</p>
+                <div class="read-more-container">
+                    <p class="text">
+                    Welcome to Munich! As soon as everyone arrives, we'll gather at Airbräu, the unique brewery right inside the Munich Airport. It's the perfect spot to kick off our trip with a quick welcome before we take the train into the city. After a short ride, we'll head to our hotel, Holiday Inn Munich City East, where you can drop off your luggage and get settled in.<br>
+                        <span class="hidden-text">It's the perfect way to start your day before diving into more adventures.<br /><br />
+                        The first day we'll take it easy during the day. Once our luggage is dropped off, you can relax at the hotel while the friendly staff readies your room or you can join us at the Viktualiemarkt, Munich's main farmer's market for some lunch and a leisurely stroll through the market stalls. The Viktualienmarkt, Munich's famous open-air market, is bustling with local vendors offering fresh produce, cheeses, meats, and Bavarian treats. This is a great opportunity to sample some authentic local flavors and get a taste of the city's vibrant food culture. After we've explored the amazing food and artisan vendors, we'll return to the hotel for check-in, and you'll have the rest of the afternoon free to explore Munich on your own. Whether it's a stroll through the old town, a visit to a museum, or simply relaxing at a café, the choice is yours.<br /><br />
+                        In the evening, we'll come together for dinner at Augustiner Bräustuben, one of Munich's oldest and most beloved beer halls. You'll enjoy a traditional Bavarian meal paired with some of the finest beers brewed right on-site. It's the perfect way to end our first day in Germany!</span><br>
+                        <span class="toggle-btn">
+                            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more...</button>
+                        </span>
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <img src="/assets/images/munich-skyline.jpg" class="w100" alt="Munich Skyline">
             </div>
         </div>
     </div>
 </section>
+</div>
 
-<section class="page">
+<div class="constrain">
+<section class="page shadow-box">
     <div class="page-content">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-7 read-more-container">
                 <h3 class="tal">Day 2: Sunday April 27th, 2025 | Munich</h3>
                 <div class="sepsm"></div>
-                <p class="tal">Day two kicks off with a classic Bavarian breakfast at Schneider Brauhaus, where you'll enjoy a traditional meal of Weisswurst (white sausage), fresh Brezn (pretzels), and a refreshing Weissbier (wheat beer). It's the perfect way to start your day before diving into more adventures.</p>
-                <p class="tal">After breakfast, we'll hop on the train and head to Frühlingsfest, Munich's lively spring festival. Known as the “little sister” of Oktoberfest, Frühlingsfest offers all the fun of a traditional beer festival—tents with live music, delicious food, and of course, plenty of beer! We've reserved seats in one of the festival tents, so you can fully immerse yourself in the atmosphere of Bavarian culture and festivities.</p>
-                <p>In the evening, you're free to choose your own adventure! You can stay at Frühlingsfest and enjoy the rides, games, and live entertainment, or head back to Munich to explore more of the city. If you're up for some shopping, check out Kaufingerstraße, one of Munich's top shopping streets. For those interested in history and culture, consider visiting the Deutsches Museum or the Alte Pinakothek art museum. Whether you stay at the festival or explore on your own, Munich has plenty to offer!</p>
-                
+                <div class="read-more-container">
+                    <p class="text">
+                    Day two kicks off with a classic Bavarian breakfast at Schneider Brauhaus, where you'll enjoy a traditional meal of Weisswurst (white sausage), fresh Brezn (pretzels), and a refreshing Weissbier (wheat beer). <br>
+                        <span class="hidden-text">It's the perfect way to start your day before diving into more adventures.<br /><br />
+                        After breakfast, we'll hop on the train and head to Frühlingsfest, Munich's lively spring festival. Known as the “little sister” of Oktoberfest, Frühlingsfest offers all the fun of a traditional beer festival—tents with live music, delicious food, and of course, plenty of beer! We've reserved seats in one of the festival tents, so you can fully immerse yourself in the atmosphere of Bavarian culture and festivities.<br /><br />
+                        In the evening, you're free to choose your own adventure! You can stay at Frühlingsfest and enjoy the rides, games, and live entertainment, or head back to Munich to explore more of the city. If you're up for some shopping, check out Kaufingerstraße, one of Munich's top shopping streets. For those interested in history and culture, consider visiting the Deutsches Museum or the Alte Pinakothek art museum. Whether you stay at the festival or explore on your own, Munich has plenty to offer!</span><br>
+                        <span class="toggle-btn">
+                            <button class="read-more-btn" onclick="toggleReadMore(this)">Read more...</button>
+                        </span>
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <img src="/assets/images/munich-skyline.jpg" class="w100" alt="Munich Skyline">
             </div>
         </div>
     </div>
 </section>
+</div>
+
+
 
 <section class="page">
     <div class="page-content">
@@ -321,7 +370,29 @@ $keywords = "page1, example, template";
 </section>
 
 
+<script>
+   function toggleReadMore(button) {
+    const container = button.closest('.read-more-container');
+    const paragraph = container.querySelector('.text');
+    const hiddenText = container.querySelector('.hidden-text');
+    const toggleBtn = container.querySelector('.toggle-btn');
 
+    container.classList.toggle('open');
+
+    if (container.classList.contains('open')) {
+        // Show hidden text and move the "Read less" button to the end
+        hiddenText.style.display = 'inline';
+        button.textContent = ' Read less';
+        paragraph.appendChild(toggleBtn);  // Move button to the end
+    } else {
+        // Collapse and reset the button to original position
+        hiddenText.style.display = 'none';
+        button.textContent = 'Read more...';
+        container.querySelector('.text').appendChild(toggleBtn);
+    }
+}
+
+</script>
 
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
