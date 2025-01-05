@@ -92,7 +92,29 @@ $keywords = "page1, example, template";
                     <p>This exclusive tour offers a perfect blend of regional flavors and cultural experiences, featuring immersive cooking classes, brewery tours, a tent reservation at Munich's Spring Fest - the little sibling to the famous Oktoberfest. Space is limited so don't hesitate to book today!</p>
                     <div class="sepsm"></div>
                     
-                    <div class="tac"><a href="" class="button">Request More Information</a></div><br />
+                    <!-- Modal button --> 
+                    <div class="tac"><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Request More Information</button></div><br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                            <div class="modal-header tac">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Have any Questions?</h1><br>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-header tac">
+                            <h5 class="tac">Send Us a Message And We'll Get Back To You Shortly</h5>
+                            </div>
+                            <div class="modal-body">
+                            <script src="https://www.cognitoforms.com/f/seamless.js" data-key="OI_LzSWKxkCZJEPTm45_yQ" data-form="1"></script>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                            </div>
+                            </div>
+                        </div>
+                    </div> 
                     <i class="fa-solid fa-bed" style="margin-right: 10px;"></i>  <strong>Chef Curated Experiences</strong><br />
                     <i class="fa-solid fa-utensils" style="margin-right: 10px;"></i> <strong>Private Brewery Tours</strong><br />
                     <i class="fa-solid fa-person-walking-luggage" style="margin-right: 10px;"></i> <strong>Exclusive Chef Dinner</strong><br />
@@ -120,7 +142,20 @@ $keywords = "page1, example, template";
             
                 <img src="/assets/images/augustiner-beergarden.jpg" alt="Augustiner Beer Garden" class="w100">
                 <div class="sepxl"></div>
-            <div class="col-md-12">
+                <div class="col-md-6">
+                <h3>Highlights</h3>
+                <h5>Food & Beer of Bavaria and Franconia</h5>
+                <ul>
+                    <li>8 days visiting restaurants, breweries, farmer's markets, and more with two award winning chefs</li>
+                    <li>Enjoy the ambience and atmosphere of Munich's Spring Fest - the smaller sibling to Oktoberfest</li>
+                    <li>Enjoy an exclusive dinner at a 600 year old Brauhaus, curated by chef Jeremy Nolen and Wolfgang Thiel of Schlenkerla</li>
+                </ul>
+                </div>
+                <div class="col-md-6">
+                <img src="/assets/images/munich-map-sm.webp" alt="Munich Map" class="w100">
+            </div>
+            <div class="seplg"></div>
+            <div class="col-md-6">
                 <h4 style="font-style:italic;">What's Included</h4>
                 <ul>
                     <li>8 nights in 3-star and above hotels</li>
@@ -136,8 +171,7 @@ $keywords = "page1, example, template";
                     <li>All Transportation throughout the duration of the trip</li>
                 </ul>
             </div>
-            <div class="sepmd"></div>
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <h4 style="font-style:italic;">Not Included</h4>
                 <ul>
                     <li>Flights to and from Munich (we are a fully licensed travel agency, flights can be added)</li>
@@ -147,51 +181,6 @@ $keywords = "page1, example, template";
                 </ul>
             </div>
             <div class="sepmd"></div>
-            <div class="col-md-6 shadow-box tac">
-                <h4>What Are You Waiting For?</h4>
-                <p>Join our exclusive Bavaria culinary tour and secure your spot today—spaces are filling fast!</p><br />
-                <!-- Modal button --> 
-                <div class="tac"><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Request More Information</button></div><br />
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                            <div class="modal-header tac">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Have any Questions?</h1><br>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-header tac">
-                            <h5 class="tac">Send Us a Message And We'll Get Back To You Shortly</h5>
-                            </div>
-                            <div class="modal-body">
-                            <script src="https://www.cognitoforms.com/f/seamless.js" data-key="OI_LzSWKxkCZJEPTm45_yQ" data-form="1"></script>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                
-                            </div>
-                            </div>
-                        </div>
-                    </div>  
-            </div>
-        </div>
-    </div>
-</section>
-<section class="page">
-    <div class="page-content">
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Highlights</h3>
-                <h5>Food & Beer of Bavaria and Franconia</h5>
-                <ul>
-                    <li>8 days visiting restaurants, breweries, farmer's markets, and more with two award winning chefs</li>
-                    <li>Enjoy the ambience and atmosphere of Munich's Spring Fest - the smaller sibling to Oktoberfest</li>
-                    <li>Enjoy an exclusive dinner at a 600 year old Brauhaus, curated by chef Jeremy Nolen and Wolfgang Thiel of Schlenkerla</li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <img src="/assets/images/munich-map-sm.webp" alt="Munich Map" class="w100">
-            </div>
         </div>
     </div>
 </section>
@@ -453,6 +442,5 @@ $keywords = "page1, example, template";
     </div>
 </section>
 </div>
-
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

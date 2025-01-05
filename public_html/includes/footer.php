@@ -58,5 +58,23 @@
 
 </script>
 
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const button = document.querySelector('[data-bs-target="#exampleModal"]');
+    const stickyElement = document.querySelector('.sticky-element');
+    const modal = document.querySelector('#exampleModal');
+
+    button.addEventListener('click', function () {
+        stickyElement.classList.remove('sticky-element');
+    });
+
+    modal.addEventListener('hidden.bs.modal', function () {
+        stickyElement.classList.add('sticky-element');
+    });
+});
+
+</script>
+
 </body>
 </html>
