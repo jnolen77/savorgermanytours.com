@@ -108,14 +108,3 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('scroll', handleScroll);
 });
 
-function toggleReadMore(button) {
-    const container = button.parentElement;
-    container.classList.toggle('open');
-
-    // Change button text based on state
-    if (container.classList.contains('open')) {
-        button.textContent = 'Read less';
-    } else {
-        button.textContent = 'Read more...';
-    }
-}

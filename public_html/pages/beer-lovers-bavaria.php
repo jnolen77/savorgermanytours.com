@@ -373,29 +373,4 @@ $keywords = "page1, example, template";
 </section>
 
 
-<script>
-   function toggleReadMore(button) {
-    const container = button.closest('.read-more-container');
-    const paragraph = container.querySelector('.text');
-    const hiddenText = container.querySelector('.hidden-text');
-    const toggleBtn = container.querySelector('.toggle-btn');
-
-    container.classList.toggle('open');
-
-    if (container.classList.contains('open')) {
-        // Show hidden text and move the "Read less" button to the end
-        hiddenText.style.display = 'inline';
-        button.textContent = ' Read less';
-        paragraph.appendChild(toggleBtn);  // Move button to the end
-    } else {
-        // Collapse and reset the button to original position
-        hiddenText.style.display = 'none';
-        button.textContent = 'Read more...';
-        container.querySelector('.text').appendChild(toggleBtn);
-    }
-}
-
-</script>
-
-
 <?php include __DIR__ . '/../includes/footer.php'; ?>
