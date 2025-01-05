@@ -25,7 +25,7 @@ $keywords = "Germany travel, German food tours, Brewery tours in Germany, German
             <h1>Savor Germany</h1>
                 <h2 class="hidden-mobile">Experience the food, beer, & wine of Germany with two acclaimed chefs</h2>
                 <div class="seplg hidden-mobile"></div>
-                <a href="/bavaria-franconia-2025" class="button hidden-mobile">Discover Your Next Adventure</a>
+                <a href="/beer-lovers-bavaria" class="button hidden-mobile">Join Us In Bavaria This Year!</a>
         </div>
         
     </div>

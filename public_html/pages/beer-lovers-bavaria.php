@@ -22,7 +22,6 @@ $keywords = "page1, example, template";
             Your browser does not support the video tag.
             </video>
         <div class="overlay-text">
-            <div class="seplg"></div>
             <h1>Beer & Food Lover's Tour of Bavaria & Franconia</h1>
             <div class="sepsm"></div>
             <div class="tac"><a href="#itinerary" class="button hidden-mobile">See the Itinerary</a></div>

@@ -22,7 +22,6 @@ $keywords = "page1, example, template";
             Your browser does not support the video tag.
             </video>
         <div class="overlay-text">
-            <div class="seplg"></div>
             <h1>Oktoberfest 2025</h1>
             <div class="sepsm"></div>
             <h2>Stay Tuned!</h2>
