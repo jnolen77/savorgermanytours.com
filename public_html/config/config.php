@@ -1,6 +1,6 @@
 <?php
 
-$stylesheet = "/assets/css/styles.css?v=2.3727"; 
+$stylesheet = "/assets/css/styles.css?v=2.3729"; 
 $website = "Savor Germany";
 
 
