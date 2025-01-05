@@ -100,7 +100,7 @@ include __DIR__ . '/../config/classes.php';
                                     <a aria-expanded="false" data-toggle="collapse" data-target="#li-About">2025 Tours <span class="caret"></span></a>
                                     <ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-1 panel-collapse collapse" id="li-About">
                                         <li>
-                                            <a href="/bavaria-franconia-2025">Bavaria & Franconia</a>
+                                            <a href="/beer-lovers-bavaria">Bavaria & Franconia</a>
                                         </li>
                                         <li>
                                         <a href="/oktoberfest-2025">Munich Oktoberfest</a>
