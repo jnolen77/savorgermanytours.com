@@ -71,6 +71,10 @@ header.sticky {
     padding: 15px 100px;
     background: #fff;
 }
+.header-top {
+    height: 100px;
+    background-color: #637991;
+}
 
 /* Logo styles */
 .logo-container {
@@ -514,7 +518,13 @@ h2 {
     display: flex;
     justify-content: center;
 }
-
+.headless-page {
+    background-color: #f8f8e5;
+    color: #000000;
+    padding-top: 150px; 
+    display: flex;
+    justify-content: center;
+}
 .page-content {
     display: flex;
     flex-wrap: wrap;
