@@ -67,7 +67,7 @@ include __DIR__ . '/../config/classes.php';
                     <div class="dropdown-content">
                         <a href="/beer-lovers-bavaria" class="dropdown-menu-items">Bavaria & Franconia 2025</a>
                         <a href="/oktoberfest-2025" class="dropdown-menu-items">Oktoberfest Munich 2025</a>
-                        <a href="/oktoberfest-beyond-2025" class="dropdown-menu-items">Oktoberfest & Beyond 2025</a>
+                    <!--    <a href="/oktoberfest-beyond-2025" class="dropdown-menu-items">Oktoberfest & Beyond 2025</a>  -->
                     </div>
                 </div>
                 <a href="/gallery" class="menu-items">Gallery</a>
